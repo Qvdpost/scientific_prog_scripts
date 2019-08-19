@@ -1,21 +1,21 @@
 # Scripts Videos Scientific Programming
 
 ## Summary
-1. How to use VSC (Marleen)
-2. Variables (Simon/Mees)
-3. Conditions (Martijn)
+1. How to use VSC (Simon)
+2. Variables (Simon)
+3. Conditions (Simon)
 4. Loops
-    * Counting/repetition (Simon)
-    * Calculations (Marleen)
-    * Filters (Martijn)
-    * User input (Mees/Simon)
-5. Lists
+    * Counting/repetition (Mees)
+    * Calculations (Mees)
+    * Filters (Mees)
+    * User input (Mees)
+5. Lists (Simon)
 6. Functions
-    * Declaring & Calling functions *Low priority* (Was nog een oude versie van?) (Mees/Simon)
+    * Declaring & Calling functions *Low priority* (Was nog een oude versie van?) (Martijn)
     * Functions with a single parameter (Martijn)
-    * Functions with multiple parameters (Simon)
-    * Functions with lists (Marleen)
-    * Calling and Passing functions to and in functions *low priority* (niet af?)
+    * Functions with multiple parameters (Martijn)
+    * Functions with lists (Martijn)
+    * Calling and Passing functions to and in functions *low priority* (niet af, geen filmpje)
 
 ## 1. How to use Visual Studio Code
 
@@ -68,7 +68,8 @@ In this video I'll explain how you can make use of variables
 
 Variables can be very convenient when, for example, you want to use the result from a calculation in another calculation. 
 Each variable is assigned a *name* and a *value*.
-~~~~You are free to choose the name of the variable yourself, but be sure to always choose a short and descriptive name~~~~
+
+You are free to choose the name of the variable yourself, but be sure to always choose a short and descriptive name
 
 An example.
 Imagine you want to calculate your income and expenses for the month.
@@ -301,7 +302,7 @@ because 81 is greater than 65.
 
 ## 4. Loops
 
-**Repetition**
+### Repetition
 In this video I'll explain how to use loops to **repeat** pieces of code in your program.
 
 Let's say you want to print the numbers 1 through 10,
@@ -350,7 +351,8 @@ you only need to change the 11 into 1001.
 
 This way you can print any amount of numbers by only a single change.
 
-**Calculating**
+### Calculating
+
 In this video I'll explain how to do **calculations** using loops.
 
 So, how can you use a loop to add a large amount of numbers together?
@@ -387,7 +389,7 @@ Let's run the program...
 
 With only a simple adjustment to the program, you can calculate the sum of any range of numbers.
 
-**Filtering**
+### Filtering
 
 In this video I'll explain how to use loops to **filter**.
 
@@ -417,7 +419,8 @@ Let's run the program...
 
 With only a simple adjustment to your code, you could also filter numbers based on a different condition.
 
-**User input**
+###User input
+
 In this video I'll explain how to use loops to request and verify user input.
 
 You've already written a program that prompts the user for their name and afterwards prints "Hello" and that users specified name.
@@ -529,7 +532,8 @@ If you run this...
 
 ## 6. Functions
 
-**Declaring and calling functions**
+### Declaring and calling functions
+
 In this video I'll explain how to declare functions and later call them.
 
 If you need a specific piece of code multiple times in your program, then you can move that code to a function so that you can call it where ever and when ever you need it.
@@ -550,15 +554,16 @@ function has to be called
 You practically use the name of the function, but don't need to add all the corresponding code.
 That is already included in the definition.
 
-**Functions with one parameter**
+### Functions with one parameter
+
 In this video I'll explain how to write functions with one parameter.
 
-~~~~
+
 We write a function that calculates the square of a random number. 
 We first declare the function by writing down "def",
 followed by the name of the function, in this case "squared".
 The function has only one parameter, that we'll call "x".
-~~~~
+
 The contents of the functions is kept simple: 
 the result is X multiplied by X... or: "return x... times... x".
 
@@ -606,7 +611,8 @@ Let's run the program...
 
 ... and indeed, 144 is printed to the screen.
 
-**Functions with multiple variables**
+### Functions with multiple variables
+
 In this video I'll explain how to use functions with multiple variables.
 
 We write a function that compares two numbers with each other and returns the *largest* number.
@@ -689,7 +695,8 @@ Let's run the program...
 
 The lists could be used together to plot a graph of x-squared.
 
-**Functions that call functions & passing functions to functions**
+### Functions that call functions & passing functions to functions
+
 In this video I'll explain how to call a function from another function and also how to pass a function as parameter to another function.
 
 Let's write a program that calculates the minimum of a mathematical function, for example "x squared", for a certain range.
